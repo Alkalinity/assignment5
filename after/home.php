@@ -11,20 +11,21 @@
         <link rel="SHORTCUT ICON" href="/images/glogo.jpg"/>
     </head>
    <!--########### TITLE SECTION #########-->
-   
-    <h1>The Internet Archive</h1>
-    <h2>Universal Access To All Knowledge</h2>
+   <img class="Logo" src="images/logo.png" alt="logo" title="Internet Archive">
+    <h1 id="mainTitle">The Internet Archive</h1>
+    <h2 id="mainHeading">Universal Access To All Knowledge</h2>
     
    <!--############### NAVIGATION SECTION ###############-->
     <nav>
         <ol>
-            <li>Home</li>
+            <li class="activePage">Home</li>
             <li><a href="https://archive.org/web/">Web</a></li>
             <li><a href="https://archive.org/details/movies">Video</a></li>
             <li><a href="https://archive.org/details/texts">Text</a></li>
             <li><a href="https://archive.org/details/audio">Audio</a></li>
             <li><a href="https://archive.org/details/etree">Live Music</a></li>
             <li><a href="https://archive.org/details/software">Software</a></li>
+            <li class="gdlogo"><a href=""><img src="images/gdlogo.gif" alt="Gd logo" title="Grateful Dead Logo"></a></li>
         </ol>
     </nav>
    

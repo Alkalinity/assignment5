@@ -33,27 +33,69 @@
    <!-- ############### MAIN CONTENT SECTION ###############-->
    <article id="boxes">
        <aside class="web">
-           <p>Content</p>
+           <h1><a href="https://archive.org/web/">Web</a></h1>
+           <p>456 Billion Webpages</p>
+           <h4>Quick Links</h4>
+           <ol>
+               <li>Tools</li>
+               <li>Subscription Service</li>
+               <li>Page Saver</li>
+           </ol>
        </aside>
        
        <aside class="video">
-           <p>Content</p>
+           <h1><a href="https://archive.org/details/movies">Video</a></h1>
+           <p>1,923,084 Movies and Videos</p>
+           <h4>Quick Links</h4>
+           <ol>
+               <li>Animation And Cartoons</li>
+               <li>Full Length Movies</li>
+               <li>Vlogs</li>
+           </ol>
        </aside>
        
        <aside class="text">
-           <p>Content</p>
+           <h1><a href="https://archive.org/details/texts">Text</a></h1>
+           <p>7,801,999 Texts and Books</p>
+           <h4>Quick Links</h4>
+            <ol>
+               <li>Borrow A Book</li>
+               <li>Contribute A Book</li>
+               <li>Digitalize</li>
+           </ol>          
        </aside>
        
        <aside class="audio">
-           <p>Content</p>
+           <h1><a href="https://archive.org/details/audio">Audio</a></h1>
+           <p>2,378,993 Recordings</p>
+           <h4>Quick Links</h4>
+           <ol>
+               <li>Audiobooks and Poetry</li>
+               <li>Podcasts</li>
+               <li>Contribute</li>
+           </ol>           
        </aside>
        
        <aside class="music">
-           <p>Content</p>
+           <h1><a href="https://archive.org/details/etree">Live Music</a></h1>
+           <p>139,054 Concerts</p>
+           <h4>Quick Links</h4>
+           <ol>
+               <li>Grateful Dead</li>
+               <li>moe.</li>
+               <li>List of Artists</li>
+           </ol>           
        </aside>
        
        <aside class="software">
-           <p>Content</p>
+           <h1><a href="https://archive.org/details/software">Software</a></h1>
+           <p>96,049 Pieces of Software</p>
+           <h4>Quick Links</h4>
+           <ol>
+               <li>Emulation Center</li>
+               <li>CD Archive</li>
+               <li>Classic PC Games</li>
+           </ol>           
        </aside>
    
    </article>

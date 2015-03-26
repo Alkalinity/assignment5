@@ -28,6 +28,11 @@ nav ol li a{
     text-decoration: none;
     color: black;
 }
+nav ol li a:hover{
+    font-style: italic;
+    text-decoration: underline; 
+}
+    
 nav{
     text-align: left;
     background-color: #CCCC99;
@@ -50,5 +55,44 @@ li.gdlogo{
 }
 li.activePage{
     text-decoration: underline;
+}
+article{
+    clear: both;
+    margin: auto;
+}
+aside{
+    width: 25%;
+    height: 17em;;
+    border: solid thin black;
+    border-radius: 1em;
+    margin: 3em;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+aside h1{
+    font-weight: bold;
+    background-color: orange;
+    margin-top: 0px;
+    margin-bottom: .4em;
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-bottom: .25em;
+}
+aside h1 a{
+    color: black;
+}
+aside h1 a:hover{
+    font-style: italic;
+}
+aside p{
+    padding-left: .5em;
+    padding-top: .25em;
+    margin: 0px;
+}
+aside h4{
+    margin-top: .2em;
+    padding: .2em;
+    background-color: orange;
 }
 

@@ -1,5 +1,6 @@
+/* Body And Header Section */
 body{
-    background-color: #FFFFF0;
+    background-color: #F9F9F9;
     font-family: sans-serif;
     margin:0px;
 }
@@ -19,14 +20,16 @@ img.Logo{
     float:right;
     background-color: black;
 }
+/* Navigation Section */
 nav ol li{
     display: inline;
     font-size: 125%;
     padding-right: 1em;
+    color: white;
 }
 nav ol li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 nav ol li a:hover{
     font-style: italic;
@@ -35,27 +38,36 @@ nav ol li a:hover{
     
 nav{
     text-align: left;
-    background-color: #CCCC99;
+    background-color: #737477;
     width: 100%;
     margin:0px;
-    border-top: thin solid black;
-    border-bottom: thin solid black;
+    border-top: thin solid #56585e;
+    border-bottom: thin solid #56585e;
 
 }
 nav ol{
     padding-top: 1.9em;
     padding-bottom: .1em;
 }
-li.gdlogo img{
-    height: 4em;
-    width: 4em;
+img.search{
+    background-color: white;
+    border-radius: 3em;
+    overflow: hidden;
 }
-li.gdlogo{
+li.gdlogo img, li.rss img{
+    height: 2em;
+    width: 2em;
     float: right;
+    padding-right: 1em;
+}
+li.donate img{
+    float: right;
+    padding-right: 1em;
 }
 li.activePage{
     text-decoration: underline;
 }
+/* Main Content Section */
 article{
     clear: both;
     margin: auto;
@@ -69,18 +81,23 @@ aside{
     float: left;
     overflow: hidden;
     background-color: white;
+    box-shadow: 8px 8px 4px #888888;
+}
+aside:hover{
+    box-shadow: 10px 10px 5px #888888;
 }
 aside h1{
     font-weight: bold;
-    background-color: orange;
+    background-color: #999966;
     margin-top: 0px;
     margin-bottom: .4em;
     padding-top: .5em;
     padding-left: 1em;
     padding-bottom: .25em;
+    border-bottom: thin solid black;
 }
 aside h1 a{
-    color: black;
+    color: #F9F9F9;
 }
 aside h1 a:hover{
     font-style: italic;
@@ -93,6 +110,127 @@ aside p{
 aside h4{
     margin-top: .2em;
     padding: .2em;
-    background-color: orange;
+    background-color: #CCCC99;
+    border-bottom: thin solid black;
+    border-top: thin solid black;
+    margin-bottom: .4em;
+    color: #66665b;
 }
-
+aside ol li{
+    list-style: none;
+}
+/* Announcements And About */
+article.about{
+    width: 75%;
+    margin: auto;
+    border: thin solid black;
+    border-radius: .5em;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 8px 8px 4px #888888;
+}
+article.about h1{
+    font-weight: bold;
+    background-color: #999966;
+    margin-top: 0px;
+    margin-bottom: .4em;
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-bottom: .25em;
+    border-bottom: thin solid black;
+    color: #F9F9F9;
+}
+article.anouncements{
+    width: 60%;
+    margin: auto;
+    border: thin solid black;
+    border-radius: .5em;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 8px 8px 4px #888888;
+}
+article.anouncements h1{
+    font-weight: bold;
+    background-color: #999966;
+    margin-top: 0px;
+    margin-bottom: .4em;
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-bottom: .25em;
+    border-bottom: thin solid black;
+    color: #F9F9F9;
+}
+article.anouncements{
+    margin-top: 2em;
+}
+article.about p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+article.about ol{
+    list-style-type:  none;
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 0px;
+    
+}
+article.about ol:first-child{
+    padding-left: 0px;
+}
+article.about ol li{
+    display: inline;
+    padding-left: 2em;
+    font-size: 115%;
+}
+article.about ol li a{
+    color: black;
+    text-decoration: underline;
+}
+article.about ol li:hover{
+    font-style: italic;
+}
+article.about ol li:visited{
+    color: black;
+}
+/* Institution Section */
+article.institution{
+    width: 60%;
+    margin: auto;
+    border: thin solid black;
+    border-radius: .5em;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 8px 8px 4px #888888;
+}
+article.institution{
+    margin-top: 2em;
+}
+article.institution h1{
+    font-weight: bold;
+    background-color: #999966;
+    margin-top: 0px;
+    margin-bottom: .4em;
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-bottom: .25em;
+    border-bottom: thin solid black;
+    color: #F9F9F9;
+}
+article.institution ul{
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+/* Footer Section */
+footer{
+    width: 100%;
+    margin-bottom: 0px;
+    padding: .4em;
+    background-color: #737477;
+    border-top: thin solid #56585e;
+    margin-top: 2em;
+    text-align: center;
+}

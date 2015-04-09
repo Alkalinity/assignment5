@@ -25,10 +25,10 @@
             <li><a href="https://archive.org/details/audio">Audio</a></li>
             <li><a href="https://archive.org/details/etree">Live Music</a></li>
             <li><a href="https://archive.org/details/software">Software</a></li>
-            <li><a href="home.php"><img src="images/search.png" class="search"></a></li>
-            <li class="rss"><a href=""><img src="images/rss.png"></a></li>
-            <li class="gdlogo"><a href=""><img src="images/gdlogo.gif" alt="Gd logo" title="Grateful Dead Logo"></a></li>
-            <li class="donate"><a href=""><img src="images/donate.gif"></a></li>
+            <li><a href="home.php"><img src="images/search.png" alt='Search Image' title='Search!' class="search"></a></li>
+            <li class="rss"><a href="https://archive.org/services/collection-rss.php"><img src="images/rss.png" alt='RssLogo' title='RSS Quick Link'></a></li>
+            <li class="gdlogo"><a href="https://archive.org/details/GratefulDead"><img src="images/gdlogo.gif" alt="Gd logo" title="Grateful Dead Logo"></a></li>
+            <li class="donate"><a href='https://archive.org/donate/index.php'><img src="images/donate.gif" alt='Donate' title='Donate!'></a></li>
         </ol>
     </nav>
 
@@ -59,7 +59,6 @@
             </ol>
             <h4>Most Recent Post</h4>
             <p><a href="">PC Video For Arabic</a></p>
-            <img src="" class="videoImage">
         </aside>
 
         <aside class="text">
@@ -73,7 +72,6 @@
             </ol>       
             <h4>Most Recent Post</h4>
             <p><a href="">Of Gardens, An Essay</a></p>
-            <img src="" class="textImage">
         </aside>
 
         <aside class="audio">
@@ -86,8 +84,7 @@
                 <li><a href="https://archive.org/upload/">Contribute</a></li>
             </ol>           
             <h4>Most Recent Post</h4>
-            <p><a href="">Minus, Castofon</a></p>
-            <img src="" class="audioImage">            
+            <p><a href="">Minus, Castofon</a></p>           
         </aside>
 
         <aside class="music">
@@ -97,11 +94,10 @@
             <ol>
                 <li><a href="https://archive.org/details/GratefulDead">Grateful Dead</a></li>
                 <li><a href="https://archive.org/details/moe">moe.</a></li>
-                <li><a href="https://archive.org/browse.php?collection=etree&field=creator">List of Artists</a></li>
+                <li><a href="https://archive.org/browse.php?collection=etree&amp;field=creator">List of Artists</a></li>
             </ol> 
             <h4>Most Recent Post</h4>
             <p><a href="">Grateful Dead Live at Nashville Municipal...</a></p>
-            <img src="" class="liveImage">
         </aside>
 
         <aside class="software">
@@ -114,8 +110,7 @@
                 <li><a href="https://archive.org/details/classicpcgames">Classic PC Games</a></li>
             </ol> 
             <h4>Most Recent Post</h4>
-            <p><a href="">The Oregan Trail Deluxe</a></p>
-            <img src="" class="softwareImage">            
+            <p><a href="">The Oregan Trail Deluxe</a></p>           
         </aside>
 
     </article>
